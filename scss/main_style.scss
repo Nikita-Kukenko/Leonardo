@@ -1,0 +1,32 @@
+@import "nullstyles.scss";
+@import "fonts.scss";
+
+@mixin flexible () {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexibleCenter () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexibleColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin fontChristmas {
+  font-family: ChristmasScriptC;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #000000;
+}
+
+body {
+  font-family: 'PTserif';
+  font-size: 16px;
+  background-color: white;
+}
