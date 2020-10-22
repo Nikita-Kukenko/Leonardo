@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal; }
 
+body {
+  font-family: 'PTserif';
+  font-size: 16px;
+  background-color: white; }
+
 .conteiner {
   max-width: 910px;
   margin: 0 auto; }
@@ -173,3 +178,19 @@ h1, h2, h3, h4, h5, h6 {
       position: absolute;
       top: 11px;
       left: 11px; }
+
+.aboutLeo {
+  width: 100%;
+  background-color: white; }
+  .aboutLeo .conteiner h2 {
+    font-family: ChristmasScriptC;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    max-width: 315px;
+    font-size: 60px;
+    margin: 60px auto; }
+  .aboutLeo .conteiner p {
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000; }

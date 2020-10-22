@@ -25,6 +25,12 @@
   color: #000000;
 }
 
+body {
+  font-family: 'PTserif';
+  font-size: 16px;
+  background-color: white;
+}
+
 .conteiner {
   max-width: 910px;
   margin: 0 auto;
@@ -111,4 +117,20 @@
         left: 11px;
       }
     }
+}
+
+.aboutLeo {
+  width: 100%;
+  background-color: white;
+  .conteiner h2 {
+    @include fontChristmas();
+    max-width: 315px;
+    font-size: 60px;
+    margin: 60px auto;
+  }
+  .conteiner p {
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+  }
 }
